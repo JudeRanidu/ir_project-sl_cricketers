@@ -11,7 +11,7 @@
 - app.py : Backend of the web app created using Flask 
 - indexer.py : Source code to upload data to elasticsearch and create the index
 - data_scraper.py :  Source code for scraping data  
-- search.py : Search functions used for diferent types of search queries
+- search.py : Search functions used for different types of search queries
 - requirements.txt : List of required python packages
 
 ---
@@ -43,8 +43,8 @@ the already available players.json and then start the web app to use for searchi
 - Age
 - Batting Style - Sinhala
 - Batting Style - English
-- Playing_Role - Sinhala
-- Playing_Role - English
+- Playing Role - Sinhala
+- Playing Role - English
 - Matches
 - Runs
 - Wickets
@@ -75,7 +75,7 @@ the already available players.json and then start the web app to use for searchi
 ## Features
 
 - Bilingual support for searching (Both Sinhala & English)
-- Intenet classification using cosine similarity
+- Intent classification using cosine similarity
 - Range query support
 - Search Results are preprocessed before displaying
 
@@ -83,7 +83,7 @@ the already available players.json and then start the web app to use for searchi
 
 ## Scraping, Indexing & Querying
 
-- Data Source for Scraping: ESPNCricnfo - https://stats.espncricinfo.com/ci/engine/stats/index.html
+- Data Source for Scraping: ESPNCricinfo - https://stats.espncricinfo.com/ci/engine/stats/index.html
 - Data about the top 100 Sri Lankan ODI cricketers that have played the most matches were scraped
 - BeautifulSoup used for scraping
 - googletrans and google-transliteration-api was respectively used for translation and transliteration

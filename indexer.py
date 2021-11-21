@@ -1,5 +1,5 @@
 from elasticsearch.helpers import streaming_bulk
-from elasticsearch import Elasticsearch, helpers
+from elasticsearch import Elasticsearch
 import json
 import tqdm
 

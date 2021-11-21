@@ -1,4 +1,4 @@
-from elasticsearch import Elasticsearch, helpers
+from elasticsearch import Elasticsearch
 from nltk.tokenize import word_tokenize
 
 es = Elasticsearch([{'host': '127.0.0.1', 'port': 9200}])

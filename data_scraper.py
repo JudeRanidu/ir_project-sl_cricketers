@@ -166,7 +166,6 @@ sinhala_bat_style_play_role = {
 }
 
 
-#main_url = "https://stats.espncricinfo.com/ci/engine/stats/index.html?class=2;filter=advanced;orderby=runs;size=150;spanmin1=01+Jan+1980;spanval1=span;team=8;template=results;type=batting"
 main_url = "https://stats.espncricinfo.com/ci/engine/stats/index.html?class=2;filter=advanced;orderby=matches;size=150;spanmin1=01+Jan+1990;spanval1=span;team=8;template=results;type=batting"
 
 result = requests.get(main_url)
